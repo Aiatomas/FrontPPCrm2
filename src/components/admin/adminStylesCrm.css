@@ -1,0 +1,115 @@
+.adminFont {
+    /*font-size: 2vh;*/
+    font-size: 1.5vh;
+    /*font-weight: normal;*/
+    font-weight: 500;
+}
+.adminBackGround {
+    background: #dcd9ce;
+    min-height: 85vh;
+}
+.adminNavBackGround {
+    background: #ffffff;
+}
+.adminFontTable {
+    /*font-size: 2.3vh;*/
+    font-size: 1.3vh;
+    /*font-weight: lighter;*/
+    font-weight: 500;
+}
+.booooold{
+    font-weight: 800;
+}
+.adminButtonAdd {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vh;
+    z-index: 9999;
+    /*background-color: red;*/
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    color: white;
+    text-align: center;
+    /*line-height: 50px;*/
+}
+.adminButtonAdd:before {
+    content: "";
+}
+.adminTable{
+    min-height: 70vh;
+}
+.adminPagination{
+    /*background: #ffffff;*/
+}
+.pagButton{
+    border-radius: 50%;
+    /*height: 2vh;*/
+}
+.whiteBG{
+    background: #ffffff;
+}
+.adminButtonAdd:hover{
+    cursor: pointer;
+}
+.redStorageItem:hover {
+    color: #0a53be;
+    cursor: pointer;
+}
+.redIcon{
+    width: 1.2vh;
+    visibility: hidden;
+}
+/*.redStorageItem.redIcon {*/
+/*    display: none;*/
+/*    visibility: hidden;*/
+/*}*/
+.redStorageItem:hover .redIcon {
+    visibility: visible;
+}
+.modalProductAdd{
+    width: 90vw;
+}
+.borderR0 {
+    border-radius: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px; /* Задає ширину полоси прокрутки */
+    height: 5px; /* Задає висоту полоси прокрутки для горизонтальної прокрутки */
+}
+
+/* Стилізація доріжки полоси прокрутки */
+::-webkit-scrollbar-track {
+    background: #E9E6DA; /* Колір фону доріжки */
+}
+
+/* Стилізація ручки полоси прокрутки */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Колір ручки полоси прокрутки */
+}
+
+/* Зміна кольору ручки полоси прокрутки при наведенні */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Колір ручки при наведенні курсору */
+}
+
+.background-with-text {
+    /*background-image: url('шлях_до_вашого_зображення.jpg'); !* Встановлення фонового зображення *!*/
+    background-size: cover; /* Покривання всієї області елемента зображенням */
+    background-position: center; /* Центрування зображення */
+    color: white; /* Колір тексту */
+    font-size: 24px; /* Розмір шрифта */
+    text-align: center; /* Вирівнювання тексту по центру */
+    width: 100%; /* Ширина елемента */
+    height: 300px; /* Висота елемента */
+    display: flex; /* Використання flex для вирівнювання контенту */
+    align-items: center; /* Вертикальне вирівнювання тексту */
+    justify-content: center; /* Горизонтальне вирівнювання тексту */
+}
+
+.hoverBlack:hover {
+    background: black;
+    color: white;
+}
